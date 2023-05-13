@@ -1,0 +1,20 @@
+.header{
+    background-color: #020202;
+    height: 44px;
+    color: #fff;
+}
+.header_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+}
+.header_wrapper p{
+    color: #ACACAC;
+}
+.header_wrapper svg{
+    margin: 5px;
+}
+.header_wrapper a{
+  color: #fff;
+}
