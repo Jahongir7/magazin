@@ -1,0 +1,22 @@
+.homeCarousel{
+    height: 300px;
+    overflow: hidden;
+}
+.newProducts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.card_wrapper{
+    margin: 30px 0;
+}
+.homeCatalog{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+.card_grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}

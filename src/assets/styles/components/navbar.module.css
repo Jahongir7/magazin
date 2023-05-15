@@ -40,3 +40,24 @@
     border: none;
     background-color: inherit;
 }
+
+.searchBar{
+    width: 50%;
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    padding: 18px;
+}
+.searchBar input{
+    width: 100%;
+    padding: 0 20px;
+    border: none;
+    background: #F5F7FF;
+    outline: none;
+    border-radius: 31px;
+}
+.searchBar svg{
+    position: absolute;
+    right: 30px;
+    top: 35%;
+}

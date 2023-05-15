@@ -1,0 +1,56 @@
+.card{
+    border: 1px solid #fff;
+    display: inline-block;
+    padding: 15px;
+}
+.card:hover{
+    border: 1px solid #CACDD8;
+}
+.card_green{
+    color: #78A962;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+.card_red{
+    font-size: 10px;
+    color: #C94D3F;
+    display: flex;
+    align-items: center;
+}
+.rating{
+    font-size: 12px;
+}
+.card b{
+    font-size: 13px;
+}
+.h_button{
+    height: 37px;
+}
+
+.card_button{
+    display: none;
+    height: 37px;
+    border-radius: 50px;
+    background-color: #fff;
+    border: 1px solid #0156FF;
+    color: #0156FF;
+    font-size: 14px;
+    width: 100%;
+}
+.card_button:hover{
+    background-color: #0156FF;
+    color: #fff;
+}
+.card:hover .card_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card:hover .h_button{
+    display: none;
+}
+.card_button svg{
+    margin: 5px;
+    margin-top: 0;
+}
