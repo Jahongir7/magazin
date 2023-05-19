@@ -1,0 +1,111 @@
+.footer{
+    background-color: #020203;
+    color: #fff;
+    padding: 47px 0;
+    padding-bottom: 7px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer ul {
+    margin: 0;
+    padding: 0;
+}
+.f_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.f_head input{
+    background: #000000;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+    outline:none;
+    color:white;
+    width: 390px;
+    height: 50px;
+    margin-right: 23px;
+}
+.f_head button{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    background: #0156FF;
+    border-radius: 50px;
+    color: #fff;
+    width: 151px;
+    height: 50px;
+    border: 1px solid #0156FF;
+}
+.f_head button:hover{
+    background-color: #fff;
+    color: #0156FF;
+}
+
+.f_title h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 132.5%;
+    margin: 0;
+}
+
+.f-title p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 132.5%;
+}
+.f_body b{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+color: rgba(255, 255, 255, 0.5);
+}
+.f_body{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.f_body ul{
+    list-style: none;
+}
+.f_body ul li{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    /* or 18px */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+.f_footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    border-top: 1px solid #ffffff27;
+    margin-top: 40px;
+}
+.f_cards svg{
+    font-size: 34px;
+    margin-left: 20px;
+}
+.f_cards{
+    transform: translateX(25%);
+}

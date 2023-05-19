@@ -1,0 +1,68 @@
+export const footer = [
+  {
+    title: "Information",
+    lists: [
+      "About us",
+      "About zip",
+      "Search",
+      "About us",
+      "About us",
+      "Terms",
+      "About us",
+      "About us",
+      "Advanced search",
+    ],
+  },
+  {
+    title: "PC Parts",
+    lists: [
+      "CPUS",
+      "Add on Cards",
+      "Search",
+      "About us",
+      "Graphic card",
+      "Terms",
+      "About us",
+      "About us",
+      "Advanced search",
+      "Advanced search",
+      "Motherboards",
+    ],
+  },
+  {
+    title: "Desktop PC",
+    lists: [
+      "Custom PC",
+      "About zip",
+      "Search",
+      "About us",
+      "About us",
+      "Terms",
+    ],
+  },
+  {
+    title: "Laptops",
+    lists: [
+      "Evryday Use Notebook",
+      "About zip",
+      "Search",
+      "About us",
+      "About us",
+      "Terms",
+    ],
+  },
+  {
+    title: "Adress",
+    lists: [
+      "About us",
+      "About zip",
+      "Search",
+      "About us",
+      "About us",
+      "Terms",
+      "About us",
+      "About us",
+      "Advanced search",
+    ],
+  },
+];
