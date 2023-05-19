@@ -8,11 +8,21 @@ body {
   box-sizing: border-box;
   font-family: 'Poppins';
 }
-
+html{
+  padding: 0;
+}
 .container{
     width: 90%;
     margin: 0 auto;
 }
+.paralax_container{
+  width: 100%;
+  background-color: #fff;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 530px;
+}
+
 p{
   margin: 0;
 }
@@ -33,11 +43,12 @@ svg{
 
 .swiper-slide {
   font-size: 18px;
-  background: #fff;
+  background: inherit;
   /* Center slide text vertically */
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 80px 0;
 }
 
 .swiper-slide img {

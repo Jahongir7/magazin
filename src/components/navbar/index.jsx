@@ -3,6 +3,7 @@ import { Icon } from "@iconify/react";
 import { useState } from "react";
 import NavItems from "./navItems";
 import SearchBar from "./SearchBar";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpenSearch, setIsOpenSearch] = useState(false);
@@ -11,7 +12,9 @@ const Navbar = () => {
     <>
       <div className="container">
         <div className={styles.navbar}>
-          <Icon icon="ph:codesandbox-logo-fill" width="60" color="#0156FF" />
+          <Link to="/">
+            <Icon icon="ph:codesandbox-logo-fill" width="60" color="#0156FF" />
+          </Link>
           {isOpenSearch ? <SearchBar /> : <NavItems />}
           <div className={styles.navbar_right}>
             <button onClick={() => setIsOpenSearch(!isOpenSearch)}>

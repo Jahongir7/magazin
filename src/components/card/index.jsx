@@ -19,8 +19,8 @@ const Card = ({ data }) => {
         <Rating
           placeholderRating={data.rating}
           emptySymbol={<Icon icon="ic:outline-star-border" />}
-          placeholderSymbol={<Icon icon="ic:outline-star" color="yellow" />}
-          fullSymbol={<Icon icon="ic:outline-star" color="yellow" />}
+          placeholderSymbol={<Icon icon="ic:outline-star" color="#E9A426" />}
+          fullSymbol={<Icon icon="ic:outline-star" color="#E9A426" />}
         />
         <p>Reviews {data.reviews}</p>
       </div>
